@@ -6,3 +6,13 @@
 
 from collections import deque
 queue = deque([])
+queue.append(1)
+queue.append(2)
+queue.append(3)
+# .popleft removes an item at the beginning of a list
+queue.popleft()
+
+print(queue)
+# if queue is empty it will print "Empty"
+if not queue:
+    print("Empty")
