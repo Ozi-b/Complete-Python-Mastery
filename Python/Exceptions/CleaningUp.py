@@ -2,7 +2,7 @@
 # it is important to close that file when you are done
 
 try:
-    file = open("CleaningUp.py")
+    file = open("CleaningUp.py", encoding="utf-8")
     age = int(input("Age: "))
     xfactor = 10 / age
     file.close()
