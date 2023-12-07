@@ -13,13 +13,13 @@ class Point:
 
 
 point = Point(10, 20)
-other = Point(1, 2)
+another = Point(1, 2)
 
 # Returns false because the == operator compares the reference or addresses of these two objects in memory
 # But by having the def __eq__ magic method in the class it will now return true
-print(point == other)
+print(point == another)
 
 # print(point > other) returns an error stating > not supported between instances of point and point
 # now with the def __gt__ magic method in the class it will return true or false if either point object is greater or less than
-print(point > other)  # Returns true
-print(point < other)  # Returns false
+print(point > another)  # Returns true
+print(point < another)  # Returns false
