@@ -40,4 +40,4 @@ cloud.add("python")
 
 # To access it you need to use __dict__
 print(cloud.__dict__)  # Returns {'_TagCloud__tags': {'python': 3}}
-print(cloud._TagCloud__tags)  # Returns {'python': 3}
+# print(cloud._TagCloud__tags)  # Returns {'python': 3}
